@@ -1,14 +1,16 @@
 {
-  "name": "react-tailwind",
+  "homepage": "https://harshan-aiyappa.github.io/prototype-teacher-dashboard-v1",
+  "name": "prototype-teacher-dashboard-v1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "author": "akhshy.balakannan@gmail.com <https://github.com/akhshyganesh>",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
